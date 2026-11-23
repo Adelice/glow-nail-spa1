@@ -14,11 +14,11 @@ if (toggleButton) {
   toggleButton.addEventListener("click", function () {
     if (isOpen) {
       details.hidden = true;
-      toggleButton.textContent = "Show opening hours";
+      toggleButton.textContent = "Show my goals for next year";
       isOpen = false;
     } else {
       details.hidden = false;
-      toggleButton.textContent = "Hide opening hours";
+      toggleButton.textContent = "Hide my goals for next year";
       isOpen = true;
     }
     console.log("Box open:", isOpen);
@@ -27,7 +27,7 @@ if (toggleButton) {
 
 // Day 4, Block 2: first add the list section to index.html (the page gives you the HTML),
 // then delete the slash-star line below and the star-slash line at the end to switch this on.
-/*
+
 const items = ["Clean tools every time", "Clear prices before we start", "A friendly welcome", "Walk in, no booking needed"];
 const list = document.querySelector("#item-list");
 
@@ -40,4 +40,4 @@ if (list) {
   }
   console.log("Items shown:", items.length);
 }
-*/
+
